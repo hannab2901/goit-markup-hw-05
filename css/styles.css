@@ -121,11 +121,10 @@ body {
 }
 .nav.current {
   color: var(--accent-color);
-}
-.current {
   position: relative;
 }
-.current::after {
+
+.nav.current::after {
   content: "";
   display: block;
   position: absolute;
