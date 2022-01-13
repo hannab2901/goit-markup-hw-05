@@ -486,10 +486,14 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-
-.web-project {
+.project-border {
+  position: relative;
+}
+.proff-card::after {
+  content: "";
+  display: inline-block;
   position: absolute;
-  width: 100%;
+  width: 370px;
   height: 294px;
   background: var(--accent-color);
   margin-left: -24px;
