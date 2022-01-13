@@ -122,18 +122,21 @@ body {
 .nav.current {
   color: var(--accent-color);
 }
-/*  Чорновик підчеркування
-.header-ul li::after {
+.current {
+  position: relative;
+}
+.current::after {
   content: "";
   display: block;
   position: absolute;
-  width: max-content;
+  width: 100%;
   height: 4px;
-  top: 76px;
+  top: 44px;
 
   background: var(--accent-color);
   border-radius: 2px;
-} */
+}
+
 .info {
   text-decoration: none;
   list-style: none;
