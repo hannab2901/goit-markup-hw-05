@@ -611,6 +611,7 @@ body {
   height: 100vw;
   background: rgba(0, 0, 0, 0.2);
   top: 0;
+  transition: opacity 300ms, visibility 300ms;
 }
 .modal {
   width: 528px;
